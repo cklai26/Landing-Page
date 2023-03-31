@@ -2,7 +2,7 @@
 
 ## 1. Project Description
 
--This is a submission to Udacity Front-End Development Nanodegree Project 2 - Manipulation of DOM. The project prepares us for appending dynamically added data to the DOM, and to show us how Javascript can improve the usability of an otherwise static site by building a multi-section landing page.
+- This is a submission to Udacity Front-End Development Nanodegree Project 2 - Manipulation of DOM. The project prepares us for appending dynamically added data to the DOM, and to show us how Javascript can improve the usability of an otherwise static site by building a multi-section landing page.
 
 ## 2. Program Languages
 
