@@ -1,0 +1,87 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/a753402abf.js" crossorigin="anonymous"></script>
+  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+        <!-- Navigation starts as empty UL that will be populated with JS -->
+        <ul id="navbar__list"></ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>Le Corbusier's Five Points of Architecture </h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1">
+      <div class="landing__container">
+        <h2>Pilotis</h2>
+        <p>Le Corbusier's use of pilotis was a revolutionary concept in architecture. Instead of building on a solid foundation, he used columns or stilts to elevate buildings off the ground. This allowed for more open space underneath the building and increased natural light and ventilation. The use of pilotis also provided structural support, which allowed for larger and more spacious interior areas.</p>
+
+        <p>One of the most famous examples of the use of pilotis is Le Corbusier's Villa Savoye, which was completed in 1931. The villa is supported by pilotis and has an open ground floor that allows for easy movement and access to the surrounding garden. The use of pilotis creates a feeling of lightness and openness that is characteristic of modernist architecture.</p>
+      </div>
+    </section>
+    <section id="section2" data-nav="Section 2">
+      <div class="landing__container">
+        <h2>Free plan</h2>
+        <p>The free plan was another key concept in Le Corbusier's design philosophy. Instead of using load-bearing walls to create interior spaces, he used non-load-bearing walls, which allowed for greater flexibility in the layout of the building. This meant that interior spaces could be easily reconfigured to suit changing needs, and that the building could adapt to the changing demands of its occupants.</p>
+
+        <p>One of the most famous examples of the use of free plan is Le Corbusier's Unité d'Habitation in Marseille, completed in 1952. The building consists of a series of modular apartments that are arranged around a central service core. The free plan allows for different configurations of the apartments and provides flexibility for the occupants to adapt the space to their needs.</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Section 3">
+      <div class="landing__container">
+        <h2>Free facade</h2>
+        <p>Le Corbusier's use of a free facade was an important departure from traditional architecture, which typically used load-bearing walls to support the weight of the building. Instead, he used non-load-bearing facades, which allowed for greater flexibility in the design of the exterior of the building. This meant that the facade could be designed to suit the surrounding environment and could provide more natural light and ventilation to the interior spaces.</p>
+
+        <p>One of the most famous examples of the use of a free facade is Le Corbusier's Ronchamp Chapel, completed in 1955. The chapel's facade is composed of a series of curved concrete planes that create a dramatic sculptural form. The free facade allows for more light and shadow to play across the surface of the building, creating a dynamic interplay between the building and its environment.</p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Section 4">
+      <div class="landing__container">
+        <h2>Ribbon window</h2>
+        <p>Le Corbusier's use of ribbon windows was a key element in his design philosophy. Instead of using small, individual windows, he used long, horizontal windows that stretched across the length of the building. This allowed for more natural light and ventilation to enter the interior spaces, and created a feeling of openness and transparency.</p>
+
+        <p>One of the most famous examples of the use of ribbon windows is Le Corbusier's Unité d'Habitation in Marseille. The building features long, continuous windows that stretch across the facade of the building, providing ample natural light and ventilation to the interior spaces. The use of ribbon windows also creates a sense of continuity between the interior and exterior spaces of the building.</p>
+      </div>
+    </section>
+
+    <section id="section5" data-nav="Section 5">
+      <div class="landing__container">
+        <h2>Roof garden</h2>
+        <p>Le Corbusier's use of roof terraces was another important departure from traditional architecture. Instead of using a pitched roof, he used a flat roof that could be used as an outdoor living space. This provided additional living space and allowed for access to natural light and fresh air.</p>
+
+        <p>One of the most famous examples of the use of a roof terrace is Le Corbusier's Villa Savoye. The villa features a rooftop terrace that provides views of the surrounding landscape and creates a connection between the building and its environment. The roof terrace can be used for outdoor living and provides</p>
+      </div>
+    </section>
+
+    <button class="to-top">
+      <i class="fa-sharp fa-solid fa-circle-arrow-up"></i>    
+    </button>
+
+  </main>
+  
+  <footer class="page__footer">
+    <p>&copy CK Lai 2023</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+
+</body>
+</html>
