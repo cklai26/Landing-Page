@@ -1,9 +1,32 @@
-# Landing Page Project
+# Project Title: Landing Page
 
-## Instructions
+## 1. Project Description
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+- This is a submission to Udacity Front-End Development Nanodegree Project 2 - Manipulation of DOM. The project prepares us for appending dynamically added data to the DOM, and to show us how Javascript can improve the usability of an otherwise static site by building a multi-section landing page.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## 2. Program Languages
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+- HTML
+- CSS
+- Javascript.
+
+## 3. File Contents
+
+- README.md
+- index.html
+- css
+    - styles.css
+- js
+    - app.js
+- .github
+
+## 4. Installation Guide
+
+1. Download the zip file.
+2. Unzip the file.
+3. Open the index.html with browser to view the website.
+
+## 5. Author
+
+- Name: Lai Chin Kong 
+- Email: cklai26@yahoo.com

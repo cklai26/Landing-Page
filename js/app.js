@@ -16,7 +16,7 @@ makeNav();
 // navLink.hash used to iterate (using forEach) through the links by accessing the # property in <a href>
 const navLinks = document.querySelectorAll('nav ul li a');
 
-window.addEventListener('scroll', function () {
+window.addEventListener('scroll', () => {
 
     navLinks.forEach(navLink => {
         const sectionView = document.querySelector(navLink.hash);
@@ -32,7 +32,13 @@ window.addEventListener('scroll', function () {
     });
 });
 
-//Scroll-margin used in CSS to modify the scroll position after clicking the links.
+// Click to scroll to sections
+navUl.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    const link = evt.target.getAttribute('href');
+    const section = document.querySelector(link);
+    section?.scrollIntoView({behavior: "smooth"});
+});
 
 //To top button
 const toTop = () => {
