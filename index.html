@@ -17,8 +17,13 @@
   IDs are only used for sections to connect menu achors to sections -->
   <header class="page__header">
     <nav class="navbar__menu">
-        <!-- Navigation starts as empty UL that will be populated with JS -->
+      <div class="list-container">
         <ul id="navbar__list"></ul>
+      </div>
+      <button class="menu-btn screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+        <i class="fa-solid fa-bars open-menu-icon"></i>
+        <i class="fa-solid fa-xmark close-menu-icon"></i>
+      </button>        
     </nav>
   </header>
   <main>
